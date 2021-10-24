@@ -1,0 +1,461 @@
+DIV.content
+      {
+      position: absolute;
+      left: 50%;
+      height2:480px;
+      width: 768px;
+      margin-left: -384px; /* half of width */
+	  background-image:url(images/background_img.jpg);
+	  border:#006699 solid 1px;
+      }
+DIV.header
+      {
+       position: relative;
+	  height:58px;
+      width: 768px;
+      margin-left: 0px;
+	  background-color:#FFFFFF;
+      }
+DIV.subheader
+      {
+      position: relative;
+	  float:left;
+      width: 150px;
+	  margin-top: 10px; 
+      margin-left: 4px; 
+      }
+DIV.main
+      {
+      position: relative;
+	  float:right;
+      width: 600px;
+	  height2:370px;
+	  margin-top: 10px;
+      margin-right:1px; 
+
+      }
+DIV.footer
+      {
+      position: relative;
+	  left:0px;
+	  height:32px;
+      width: 768px;
+      margin-left: 0px;
+	  bottom:0px;
+	  background-color:#666666
+      }
+	  
+DIV.splash_outer
+      {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 600px;
+      height: 450px;
+      margin-left: -300px; /* half of width */
+      margin-top: -225px;  /* half of height */
+      background-color: #FFFFFF;
+	  background-image:url(images/Splash.jpg);
+      }
+      
+      
+DIV.splash_inner
+      {
+      position:absolute;
+      left: 50%;
+      top :50%;
+      width: 560px;
+      height: 200px;
+      margin-left: -280px;  /* half of width */
+      margin-top: -60px;   /* half of height */
+      }
+#navcontainer {
+	background-color:#E5EDF0;
+	border-bottom:1px solid #91A7B4;
+	border-left:1px solid #91A7B4;
+	border-right:1px solid #91A7B4;
+	height: 380px;
+	padding: 5px;
+	font: normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#navlist {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+
+@media all {
+	#navlist {
+		text-align: center
+	}
+}
+
+#navlist li {
+	bottom: 11px;
+	display: inline;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+html>body #navlist li {
+	background: #000;
+	margin: 0 3px 0 0;
+	padding: 4px 0px 4px 0;
+}
+
+#navlist a, #navlist a:link, #navlist a:visited {
+	background: #900;
+	border: 1px solid #FFF;
+	bottom: 2px;
+	color: #666666;
+	cursor: pointer;
+	display: inline;
+	height: 1em;
+	margin: 0;
+	padding: 3px 5px 3px 5px;
+	position: relative;
+	right: 2px;
+	text-decoration: none;
+	background-color: #CCCCCC;
+}
+
+#navlist a:hover {
+	background: #d2ddee;
+	bottom: 1px;
+	color: #305081;
+	position: relative;
+	right: 1px;
+}
+
+#navlist a:active {
+	background: #999;
+	bottom: 0px;
+	color: #FFF;
+	position: relative;
+	right: 0px;
+}
+
+#navlist li .este {
+	background: #305081;
+	bottom: 13px;
+	display: inline;
+	margin: 0 3px 0 0;
+	padding: 0;
+	position: relative;
+}
+
+html>body #navlist li .este {
+	background: #000;
+	margin: 0 4px 0 4px;
+}
+
+#navlist .este a, #navlist .este a:link, #navlist .este a:visited, #navlist .este a:hover {
+	background: #305081;
+	border-bottom: none;
+	border-left: 1px solid #9CC;
+	border-right: 1px solid #9CC;
+	border-top: 1px solid #9CC;
+	bottom: 0;
+	color: #FFF;
+	cursor: text;
+	margin: 0;
+	padding: 2px 5px 0 5px;
+	position: relative;
+	right: 0;
+}
+.tecla{
+background-color:#f8f8f8;
+border-width:2px;
+border:solid;
+border-bottom-color:#999999;
+border-right-color:#999999;
+border-top-color:#FFFFFF;
+border-left-color:#FFFFFF;
+}
+
+.alerta{
+background:url(images/Notes.gif) #FBFADD no-repeat center left ;
+height:24px;
+padding-top:10px;
+vertical-align:middle;
+padding-left:30px;
+border:#FBFADD 3px dashed;
+color:#CC3300;
+font-weight:bold;
+
+}
+
+
+BODY {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#666666;
+	}
+	
+H1{font-size: 20px;color:#4C70A0;}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#666666;
+	}
+
+A {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration:none;
+	color:#000000;
+	}
+.datauser table{
+	}
+.datauser tr {
+	}
+.datauser .izquierdo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:right;
+	font-size: 11px;
+	color:#000000;
+	}
+.datauser .derecho {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:Left;
+	font-size: 11px;
+	height:26px;
+	width:250px;
+	padding-left:5px;
+	color:#000000;
+	background-color:#C7DAE1
+	}
+.datauser .derecho2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:Left;
+	font-size: 11px;
+	height:26px;
+	width:400px;
+	padding-left:5px;
+	color:#000000;
+	background-color:#C7DAE1
+	}
+	
+.datagrid table{
+	background-color:#dedede;
+	}
+.datagrid th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#FFFFFF;
+	background-image:url(images/ruler.jpg);
+	}
+.datagrid th A a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#FFFFFF;
+	background-image:url(images/ruler.jpg);
+	}
+.datagrid tr {
+	background-color:#FFFFFF
+	}
+.datagrid td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size: 11px;
+	color:#666666;
+	}
+.datagrid .borrado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:line-through;
+	font-size: 11px;
+	color:#FF6666;
+	background-color:#f8f8f8;
+	}
+.datagrid .func {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: dotted 2px #FFFFFF;
+	text-align:left;
+	font-size: 11px;
+	color:#666666;
+	background-color:#C7DAE1;
+	}
+.alert {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 11px; color:#FF0000;
+	}
+	
+#vertmenu h1 {
+display: block; 
+font-size: 100%; 
+padding: 3px 0 5px 3px;
+color: #333333;
+margin: 0px;
+width:130px;
+}
+
+#vertmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#vertmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#vertmenu ul li a {
+font-size: 100%;
+display: block;
+border-bottom: 1px dashed #CCCCCC;
+padding: 5px 0px 2px 4px;
+text-decoration: none;
+color: #666666;
+width:130px;
+}
+
+#vertmenu ul li a:hover, #vertmenu ul li a:focus {
+color: #000000;
+background-color: #FFFFFF;
+}
+
+/*Calendario*/
+
+#CalendarControlIFrame {
+  display: none;
+  left: 0px;
+  position: absolute;
+  top: 0px
+  height: 250px;
+  width: 250px;
+  z-index: 99;
+}
+
+#CalendarControl {
+  position:absolute;
+  background-color:#FFF;
+  margin:0;
+  padding:0;
+  display:none;
+  z-index: 100;
+}
+
+#CalendarControl table {
+  font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 8pt;
+  border-left: 1px solid #E5EDF0;
+  border-right: 1px solid #E5EDF0;
+}
+
+#CalendarControl th {
+  font-weight: normal;
+}
+
+#CalendarControl th a {
+  font-weight: normal;
+  text-decoration: none;
+  color: #FFF;
+  padding: 1px;
+}
+
+#CalendarControl td {
+  text-align: center;
+}
+
+#CalendarControl .header {
+  background-color: #91ACD7;
+}
+
+#CalendarControl .weekday {
+  background-color: #DDD;
+  color: #000;
+}
+
+#CalendarControl .domingo {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+#CalendarControl .sabado {
+  background-color: #E5EDF0;
+  color: #000;
+}
+
+#CalendarControl .current {
+  border: 1px solid #339;
+  background-color: #336;
+  color: #FFF;
+}
+
+#CalendarControl .weekday,
+#CalendarControl .domingo,
+#CalendarControl .sabado,
+#CalendarControl .current {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  width: 2em;
+}
+
+#CalendarControl .weekday:hover,
+#CalendarControl .domingo:hover,
+#CalendarControl .sabado:hover,
+#CalendarControl .current:hover {
+  color: #FFF;
+  background-color: #336;
+  border: 1px solid #999;
+}
+
+#CalendarControl .previous {
+  text-align: left;
+}
+
+#CalendarControl .next {
+  text-align: right;
+}
+
+#CalendarControl .previous,
+#CalendarControl .next {
+  padding: 1px 3px 1px 3px;
+  font-size: 1.4em;
+}
+
+#CalendarControl .previous a,
+#CalendarControl .next a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#CalendarControl .title {
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+}
+
+#CalendarControl .empty {
+  background-color: #CCC;
+  border: 1px solid #FFF;
+}
+#CalendarControl ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#CalendarControl ul li {
+margin: 0px;
+padding: 0px;
+}
+#CalendarControl ul li a {
+font-size: 100%;
+display: block;
+padding: 0px 0px 0px 0px;
+text-decoration: none;
+color: #FFFFFF;
+width:160px;
+}
+
+#CalendarControl ul li a:hover, #vertmenu ul li a:focus {
+color: #000000;
+background-color: #E5EDF0;
+}
+

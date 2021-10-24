@@ -1,0 +1,28 @@
+@media print{
+	body{ 
+		background-color:#FFFFFF; 
+		background-image:none; 
+		color:#000000 
+		font-family: arial;
+ 		font-size: 12pt;
+	}
+	div.header, div.subheader, div.footer, div.dvCalendar { 
+		display : none; 
+	}
+	.tecla{
+		display : none;
+	}
+	h1{
+		font-family: arial;
+	}
+	td{
+		font-family: arial;
+ 		font-size: 10pt;
+		text-align: left;
+	}
+	th{
+		font-family: arial;
+ 		font-size: 12pt;
+		text-align: left;
+	}
+}
